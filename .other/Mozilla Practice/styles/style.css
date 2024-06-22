@@ -1,0 +1,36 @@
+html {
+    font-size: 20px;
+    font-family: "Fuzzy Bubbles", fuzzy-bubbles;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    background-color: rgb(177, 255, 251);
+}
+
+#text {
+    color: pink;
+    text-shadow: 4px 4px 4px white;
+  }
+
+strong {
+    color: coral;
+}
+
+div {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    border: 3px solid palevioletred;
+    background-color: rgb(255, 254, 255);
+    }
+
+#box1 {
+   text-align: center; 
+}
+
+a{
+    color: blueviolet;
+}
+
+a:hover {
+    color: rgb(64, 226, 43);
+}
