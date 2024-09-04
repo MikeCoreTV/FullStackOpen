@@ -1,10 +1,15 @@
 
 const Course = (props) => {
+  let total = 0
   return (
     <div>
       <h1>{props.course.name}</h1>
       {props.course.parts.map((part) => <p key={part.id}>{part.name + " " + part.exercises}</p>)}
+      {props.course.parts.map((part) =>{total = part.exercises + total})}
+      <b>Total of {total} exercises</b>
     </div>
+    
+    
   )
 }
 
