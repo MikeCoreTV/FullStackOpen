@@ -1,14 +1,5 @@
 
-const Course = (props) => {
-  const total = props.courses.parts.reduce((s, p) => s + p.exercises, 0)
-  return (
-    <div>
-      <h1>{props.courses.name}</h1>
-      {props.courses.parts.map((part) => <p key={part.id}>{part.name + " " + part.exercises}</p>)}
-      <b>Total of {total} exercises</b>
-    </div> 
-  )
-}
+import Course from "./Components/Course"
 
 const App = () => {
   const courses = [
